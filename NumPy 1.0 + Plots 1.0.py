@@ -25,3 +25,11 @@ Y = plots.show()
 from sklearn.linear_model import LinearRegression
 Sketch = LinearRegression()
 VariableX = Array1.reshape(-1,1)
+Sketch.fit(VariableX, Array2)
+print(Sketch.coef_)
+print(Sketch.intercept_)
+VariableY = Sketch.predict(VariableX)
+
+from sklearn.metrics import root_mean_squared_error
+Draw = root_mean_squared_error(Array2, VariableY)
+print(Draw)

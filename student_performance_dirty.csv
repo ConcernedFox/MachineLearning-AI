@@ -1,0 +1,11 @@
+StudyHours,SleepHours,Tuition,RandomColumn,Marks
+1,6.0,No,abc,15
+2,7.0,Yes,xyz,20
+3,5.0,Yes,abc,28
+4,,No,xyz,35
+5,6.0,Yes,abc,40
+6,7.0,Yes,xyz,50
+7,5.0,No,abc,55
+8,6.0,Yes,xyz,60
+9,7.0,Yes,abc,68
+10,6.0,No,xyz,75
